@@ -7,6 +7,9 @@
 #include "../calendar.h"
 
 int main(void) {
-    printf("DAY NUMBER: %d\n", dayNumber(14, 8, 2022));
-    printf("MONTH NAME: %s\n", monthName(8));
+    int date[3] = {14, 8, 2022};
+
+    printf("DAY NUMBER: %d\n", dayNumber(date[0], date[1], date[2]));
+    printf("MONTH NAME: %s\n", monthName([date[1]]));
+    printf("NUMBER OF MONTH: %d\n", numberOfMonth([date[1]], date[2]));
 }
