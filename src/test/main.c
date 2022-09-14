@@ -10,6 +10,6 @@ int main(void) {
     int date[3] = {14, 8, 2022};
 
     printf("DAY NUMBER: %d\n", dayNumber(date[0], date[1], date[2]));
-    printf("MONTH NAME: %s\n", monthName([date[1]]));
+    printf("MONTH NAME: %s\n", monthName(date[1]));
     printf("NUMBER OF MONTH: %d\n", numberOfMonth(date[1], date[2]));
 }
